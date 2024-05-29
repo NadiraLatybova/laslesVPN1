@@ -1,0 +1,78 @@
+.home{
+  padding: 90px 0 10px;
+  background: white;
+  &__title{
+    color: rgb(11, 19, 42);
+    font-family: Rubik,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 70px;
+  }
+  &__subtitle{
+    color: rgb(79, 86, 101);
+    font-family: Rubik,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    margin: 20px 0 50px;
+  }
+  &__btn{
+    border-radius: 10px;
+    border: none;
+    background: rgb(245, 56, 56);
+    padding: 17px 77px;
+    color: rgb(255, 255, 255);
+    font-family: Rubik,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: left;
+    margin-bottom: 140px;
+  }
+  &__btn:hover{
+    box-shadow: -3px 35px 67px -8px rgb(245, 56, 56);
+    transition: 0.5s;
+  }
+  &__right{
+    position: relative;
+    left: 40px;
+  }
+  &__burger{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  &__row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+    padding: 25px 50px;
+    box-shadow: -2px 35px 56px -20px rgba(0,0,0,0.38);
+  }
+  &__col{
+    display: flex;
+    justify-content: space-around;
+    column-gap: 37px;
+    align-items: center;
+  }
+  &__num{
+    color: rgb(11, 19, 42);
+    font-family: Rubik,sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+  &__desc{
+    color: rgb(79, 86, 101);
+    font-family: Rubik,sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+}
+.col__vector{
+  margin-left: 50px;
+}
